@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0,0, 0.3);
+}
+
+.container {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+}
+
+.header-brand img {
+    padding-top: 8px;
+    width: 150px;
+    height: 25px;
+    z-index: 1;
+}
+
+
+.header-list ul {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.header-list li {
+    margin-left: 20px;
+}
+
+.header-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-list a:hover {
+    border-bottom: 4px solid #ff4f1a;
+    width: 70%;
+    padding-bottom: 2px;
+    transition: all 0.5s;
+}
+
+.jumbotron {
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-image: url(/img/top.png);
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+.jumbotron h4 {
+    color: white;
+    font-size: 19px;
+    margin-bottom: 15px;
+    letter-spacing: 5px;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-size: 64px;
+    margin-bottom: 50px; 
+    letter-spacing: 10px;
+}
+
+.btn {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    text-align: center;
+    border-style: solid;
+    background-color: #ff4f1a;
+    margin-right: 10px;
+    border-width: 4px;
+}
+
+.btn:hover {
+    background-color: #303945;
+    transition: all 0.7s;
+}
+
+.btn-social {
+    margin-bottom: 30px;
+}
+
+.btn-social a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-top: 28px;
+}
+
+.fa {
+    width: 8.25px;
+    height: 16px;
+    margin-top: 15px;
+    margin-left: -5px;
+}
+
+.fa-facebook {
+    margin-right: -3px;
+}
