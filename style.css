@@ -32,9 +32,9 @@ header {
 }
 
 .header-brand img {
-    padding-top: 8px;
-    width: 150px;
-    height: 25px;
+    height: 45px;
+    width: 180px;
+    padding-top: 3px;
     z-index: 1;
 }
 
@@ -63,26 +63,24 @@ header {
 }
 
 .jumbotron {
-    padding-top: 180px;
-    padding-bottom: 180px;
-    background-image: url(/top.png);
+    padding-top: 200px;
+    padding-bottom: 155px;
+    background-image: url(/background.png);
     background-size: cover;
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 
-.jumbotron h4 {
+.jumbotron h2 {
     color: white;
-    font-size: 19px;
-    margin-bottom: 15px;
+    margin-bottom: 20px; 
     letter-spacing: 5px;
+    font-family: 'Roboto', sans-serif;
 }
 
-.jumbotron h1 {
-    color: white;
-    font-size: 64px;
-    margin-bottom: 50px; 
-    letter-spacing: 10px;
+.jumbotron h2 span {
+    color: #ff4f1a;
+    font-weight: bold;
 }
 
 .btn {
@@ -98,12 +96,12 @@ header {
 }
 
 .btn:hover {
-    background-color: #303945;
+    background-color: rgb(159, 25, 171);
     transition: all 0.7s;
 }
 
 .btn-social {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .btn-social a {
