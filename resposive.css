@@ -1,0 +1,17 @@
+@media (max-width:670px) {
+    .header-list {
+        display: none;
+    }
+
+    .nav .menu-icon {
+        display: block;
+    }
+
+    .jumbotron h2 {
+        font-size: 18px;
+    }
+
+    .btn-social {
+        margin-top: -40px;
+    }
+}
