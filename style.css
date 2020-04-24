@@ -121,3 +121,11 @@ header {
 .fa-facebook {
     margin-right: -3px;
 }
+
+.nav .menu-icon {
+    color: white;
+    float: right;
+    display: none;
+    font-size: 30px;
+    margin-top: -12px;
+}
