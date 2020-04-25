@@ -10,6 +10,9 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<!-- Add the slick-theme.css if you want default styling -->
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 </head>
 
 <body>
@@ -17,7 +20,7 @@
 		<div class="container">
 			<div class="nav">
 				<div class="header-brand">
-					<a href=""><img src="/logo.png" alt="logo"></a>
+					<a href=""><img src="/img/logo.png" alt="logo"></a>
 				</div>
 				<div class="header-list">
 					<ul>
@@ -43,6 +46,162 @@
 			<h2>and working together is <span>success</span>.</h2>
 		</div>
 	</div>
+	<section class="wrapper-contact">
+		<div class="container">
+			<div class="wp-contact">
+				<h1>Team <span>Kami</span></h1>
+				<hr>
+			</div>
+		</div>
+		<div class="container">
+			<div class="card">
+				<div class="menu-card">
+					<div class="img-card">
+						<img src="img/Habib.jpg" alt="">
+					</div>
+					<div class="text-card">
+						<div class="head-text">
+							<h1>Habib Martin N.</h1>
+						</div>
+						<div class="main-text">
+							<p>
+								Bertugas membuat responsive website
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="menu-card">
+					<div class="img-card">
+						<img src="img/gifari.jpg" alt="">
+					</div>
+					<div class="text-card">
+						<div class="head-text">
+							<h1>Giffari Halika U.</h1>
+						</div>
+						<div class="main-text">
+							<p>Bertugas membuat Bagian Utama Website</p>
+						</div>
+					</div>
+				</div>
+				<div class="menu-card">
+					<div class="img-card">
+						<img src="img/febryan.jpg" alt="">
+					</div>
+					<div class="text-card">
+						<div class="head-text">
+							<h1>Febryan C. Pratama</h1>
+						</div>
+						<div class="main-text">
+							<p>Bertugas membuat bagian extra 1 dan animasi</p>
+						</div>
+					</div>
+				</div>
+				<div class="menu-card">
+					<div class="img-card">
+						<img src="img/fatwa.jpg" alt="">
+					</div>
+					<div class="text-card">
+						<div class="head-text">
+							<h1>Fatwa</h1>
+						</div>
+						<div class="main-text">
+							<p>Bertugas membuat bagian footer website</p>
+						</div>
+					</div>
+				</div>
+				<div class="menu-card">
+					<div class="img-card">
+						<img src="img/ferdian.jpg" alt="">
+					</div>
+					<div class="text-card">
+						<div class="head-text">
+							<h1>Ferdian Sahputra</h1>
+						</div>
+						<div class="main-text">
+							<p>Bertugas membuat header website</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="wrapper-service">
+		<div class="container">
+			<div class="ws-text">
+				<h1>Layanan <span>Kami</span></h1>
+				<hr>
+			</div>
+		</div>
+		<div class="container">
+			<div class="service">
+				<div class="card-service">
+					<div class="kartu tengah">
+						<div class="front">
+							<img src="img/img1.jpg" alt="">
+						</div>
+						<div class="back">
+							<div class="back-content middle">
+								<h2>E-Commerce</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card-service">
+					<div class="kartu tengah">
+						<div class="front">
+							<img src="img/img2.jpg" alt="">
+						</div>
+						<div class="back">
+							<div class="back-content tengah">
+								<h2>Profil Website</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card-service">
+					<div class="kartu tengah">
+						<div class="front">
+							<img src="img/img3.jpg" alt="">
+						</div>
+						<div class="back">
+							<div class="back-content tengah">
+								<h2>Game Developer</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card-service">
+					<div class="kartu tengah">
+						<div class="front">
+							<img src="img/img4.jpg" alt="">
+						</div>
+						<div class="back">
+							<div class="back-content tengah">
+								<h2>Accounting Website</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
+<script type="text/javascript">
+	$(document).ready(function () {
+		$('.card').slick({
+			infinite: true,
+			slidesToShow: 3, // ganti ke 2 untuk tablet dan ke 1 untuk smartphone
+			autoplay: true,
+			autoplaySpeed: 2000,
+			slidesToScroll: 1
+		});
+	});
+</script>
 
 </html>
