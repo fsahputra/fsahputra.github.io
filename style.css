@@ -7,6 +7,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Heaader dan Wrapper */
 li {
     list-style: none;
 }
@@ -16,13 +17,8 @@ header {
     height: 65px;
     position: fixed;
     top: 0;
-    background-color: rgba(0, 0,0, 0.3);
+    background-color: rgba(0, 0,0, 0.5);
     z-index: 10;
-}
-
-.container {
-    margin-left: 70px;
-    margin-right: 70px;
 }
 
 .nav {
@@ -30,6 +26,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 65px;
+    margin-top: -5px;
 }
 
 .header-brand img {
@@ -65,7 +62,7 @@ header {
 .jumbotron {
     padding-top: 200px;
     padding-bottom: 155px;
-    background-image: url(/background.png);
+    background-image: url(/img/background.png);
     background-size: cover;
     width: 100%;
     text-align: left;
@@ -129,3 +126,147 @@ header {
     font-size: 30px;
     margin-top: -12px;
 }
+/* Akhir Header dan Wrapper */
+
+/* Bagian Extra 1 dan 2 */
+
+/* START WRAPPER CONTACT */
+
+.container {
+    width: 1170px;
+    /* position: fixed; */
+    margin: 0 auto;
+    padding: 5px 15px;
+}
+
+.wrapper-contact {
+    background-color: #f6f7f7;
+    /* height: 900px; */
+}
+.wp-contact h1 {
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.wp-contact span {
+    color: #ff4f1a;
+}
+.wp-contact hr{
+    /* margin-top: 20px; */
+    margin: auto;
+    width: 100px;
+    /* text-align: center; */
+    border-radius: 50px;
+    border: 4px solid #ff4f1a;
+}
+.card {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-card {
+    background-color: #ffffff;
+    box-shadow: 5px 1px rgba(193,193,193,0.5);
+    /* border: 4px solid #ff4f1a; */
+    border-radius: 10px;
+    flex: auto;
+    /* START Ganti ini untuk responsive web */
+    width: 30%;
+    /* END Ganti ini untuk responsive web */
+    margin: 0 20px;
+    margin-bottom: 70px;
+}
+.img-card img {
+    width: 100%;
+    border-radius: 10px;
+    height: 300px;
+}
+.text-card {
+    padding: 20px;
+}
+.head-text h1 {
+    font-size: 25px;
+    color: #ff4f1a;
+}
+.main-text {
+    margin-top: 10px;
+}
+.main-text p {
+    margin-top: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+button .slick-next {
+    color: black;
+    background-color: black;
+}
+
+/* END wrapper contact */
+
+/* START WRAPPER SERVICE */
+.wrapper-service {
+    background-color: #ffffff;
+}
+.ws-text h1 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.ws-text span {
+    color: #ff4f1a;
+}
+.ws-text hr {
+    width: 100px;
+    margin: auto;
+    border-radius: 50px;
+    border: 4px solid #ff4f1a;
+}
+.service {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card-service {
+    margin-right: 50px;
+    flex: auto;
+    width: 40%;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.card-service img {
+    width: 100%;
+    border-radius: 10px;
+}
+.kartu {
+    position: relative;
+}
+.kartu h2 {
+    position: absolute;
+    top: 50%;
+    /* vertical-align: middle; */
+    width: 100%;
+    /* height: 100%; */
+    color: #ff4f1a;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 3px 3px white;
+    opacity: 0;
+    transition: 1s;
+    transform: translate(0, -50px);
+}
+.kartu h2:hover {
+    opacity: 1;
+    transform: translate(0,0 );
+}
+
+
+
+/* END WRAPPER SERVICE */
+
+/* Akhir Bagian Extra 1 dan 2 */
